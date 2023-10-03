@@ -1,0 +1,31 @@
+[PRI]
+PRI=20000
+#12500 para julia dia y noche
+
+[Repeats]
+Count=1
+
+[Sampling]
+Start=88.
+End=5208.
+#5208.
+
+[Waveform]
+Holdoff=11.0
+Start=0.
+Width=60.
+#    #   X    Y
+Baud=1  1.0  1.0
+FileName=../run/waveform_table.txt
+
+[Calibration]
+#Start=100.
+Start=11.
+Width=60.
+#    #   X    Y
+Baud=1  1.0  1.0
+FileName=../run/waveform_table.txt
+
+
+[End]
+
